@@ -106,7 +106,6 @@ border-bottom: 2px solid red
 }
 
 .cart-btn{
-    /* background-color: green; */
     position: relative;
     display: flex;
     font-size: 30px;
@@ -114,11 +113,13 @@ border-bottom: 2px solid red
 
 .one-btn{
     text-align: center;
-    background-color:pink;
+    background-color:black;
+    border: 3px solid white;
+    color: white;
     position: absolute;
     font-size: 15px;
-    top: -8px;
-    right: 22px;
+    top: -10px;
+    right: 24px;
     border-radius: 50px;
     width: 18px;
     height: 18px;
