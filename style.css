@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: pink;
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100wh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.spaan{
+    color: black;
+    font-size: 20px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.logo img{
+    height: 80px;
+    padding-top: 10px;
+    padding-left: 20px;
+    
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 2px solid purple;
+
+}
+
+
+.navBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navBar a {
+text-decoration: none;
+font-size: 20px;
+color: purple;
+}
+
+
+
+ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.navBar a:hover {
+border-bottom: 2px solid red
+;
+}
+
+.products img{
+    width: 400px;
+    
+} 
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding: 60px;
+}
+
+
+.Para h1{
+    font-size: 50px;
+}
+
+.Para p{
+    font-size: 20px;
+    font-style: italic;
+}
+
+.btn{
+    padding: 15px 30px;
+    background: pink;
+    color:black;
+    font-weight: bold;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.cart-btn{
+    /* background-color: green; */
+    position: relative;
+    display: flex;
+    font-size: 30px;
+}
+
+.one-btn{
+    text-align: center;
+    background-color:pink;
+    position: absolute;
+    font-size: 15px;
+    top: -8px;
+    right: 22px;
+    border-radius: 50px;
+    width: 18px;
+    height: 18px;
+    
+}
+
+
+
+
