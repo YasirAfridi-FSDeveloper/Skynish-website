@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Products</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+</head>
+<body>
+
+<nav>
+  <div class="logo"><img src="/Skynish-Logo.webp" /></div>
+  <div class="navBar">
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </div>
+  <div class="cart-btn">
+    <a href="cart.html" style="color:black;">
+      <i class="fa-solid fa-cart-arrow-down"></i>
+    </a>
+    <div class="one-btn" id="cartCount">0</div>
+  </div>
+</nav>
+
+<h1>Welcome to Product Page</h1>
+
+<div class="product222">
+
+  <!-- T-SHIRT -->
+  <div>
+    <img src="./T-shirt.jpg" width="250" />
+    <div>
+      <button class="btn add-to-cart" data-name="T-Shirt" data-price="1500">Add to Cart</button>
+      <button class="btn remove-from-cart" data-name="T-Shirt">Remove</button>
+    </div>
+  </div>
+
+  <!-- BAG -->
+  <div>
+    <img src="./bag.webp" width="250" />
+    <div>
+      <button class="btn add-to-cart" data-name="Bag" data-price="2500">Add to Cart</button>
+      <button class="btn remove-from-cart" data-name="Bag">Remove</button>
+    </div>
+  </div>
+
+  <!-- SHOES -->
+  <div>
+    <img src="./shoes.jpg" width="250" />
+    <div>
+      <button class="btn add-to-cart" data-name="Shoes" data-price="3000">Add to Cart</button>
+      <button class="btn remove-from-cart" data-name="Shoes">Remove</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
